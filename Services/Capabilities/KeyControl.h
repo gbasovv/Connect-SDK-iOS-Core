@@ -55,6 +55,29 @@
 - (void) okWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
 - (void) backWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
 - (void) homeWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) redWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) yellowWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) greenWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) blueWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) infoWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number1WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number2WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number3WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number4WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number5WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number6WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number7WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number8WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number9WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) number0WithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) guideWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) dashWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) menuWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) exitWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) powerOffWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) volumeDownWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) volumeUpWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
+- (void) muteWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure;
 
 - (void) sendKeyCode:(NSUInteger)keyCode success:(SuccessBlock)success failure:(FailureBlock)failure;
 

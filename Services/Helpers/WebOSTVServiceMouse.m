@@ -124,6 +124,26 @@
         case WebOSTVMouseButtonDown: keyString = @"DOWN"; break;
         case WebOSTVMouseButtonLeft: keyString = @"LEFT"; break;
         case WebOSTVMouseButtonRight: keyString = @"RIGHT"; break;
+        case WebOSTVMouseButtonRed: keyString = @"RED"; break;
+        case WebOSTVMouseButtonGreen: keyString = @"GREEN"; break;
+        case WebOSTVMouseButtonYellow: keyString = @"YELLOW"; break;
+        case WebOSTVMouseButtonBlue: keyString = @"BLUE"; break;
+        case WebOSTVMouseButtonInfo: keyString = @"INFO"; break;
+        case WebOSTVMouseButtonNumber1: keyString = @"1"; break;
+        case WebOSTVMouseButtonNumber2: keyString = @"2"; break;
+        case WebOSTVMouseButtonNumber3: keyString = @"3"; break;
+        case WebOSTVMouseButtonNumber4: keyString = @"4"; break;
+        case WebOSTVMouseButtonNumber5: keyString = @"5"; break;
+        case WebOSTVMouseButtonNumber6: keyString = @"6"; break;
+        case WebOSTVMouseButtonNumber7: keyString = @"7"; break;
+        case WebOSTVMouseButtonNumber8: keyString = @"8"; break;
+        case WebOSTVMouseButtonNumber9: keyString = @"9"; break;
+        case WebOSTVMouseButtonNumber0: keyString = @"0"; break;
+        case WebOSTVMouseButtonGuide: keyString = @"GUIDE"; break;
+        case WebOSTVMouseButtonDash: keyString = @"DASH"; break;
+        case WebOSTVMouseButtonMenu: keyString = @"MENU"; break;
+        case WebOSTVMouseButtonExit: keyString = @"EXIT"; break;
+            
         default:break;
     }
 

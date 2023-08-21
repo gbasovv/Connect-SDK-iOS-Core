@@ -719,6 +719,34 @@ static NSMutableArray *registeredApps = nil;
     return CapabilityPriorityLevelHigh;
 }
 
+- (void)powerOffWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
+{
+    [self sendKeyCode:RokuKeyCodePowerOff success:success failure:failure];
+}
+
+- (void)volumeDownWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
+{
+    [self sendKeyCode:RokuKeyCodeVolumeDown success:success failure:failure];
+}
+
+- (void)volumeUpWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
+{
+    [self sendKeyCode:RokuKeyCodeVolumeUp success:success failure:failure];
+}
+
+- (void)muteWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
+{
+    [self sendKeyCode:RokuKeyCodeMute success:success failure:failure];
+}
+
+- (void)blueWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure {
+    
+}
+
+- (void)dashWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure {
+    
+}
+
 - (void)upWithSuccess:(SuccessBlock)success failure:(FailureBlock)failure
 {
     [self sendKeyCode:RokuKeyCodeUp success:success failure:failure];

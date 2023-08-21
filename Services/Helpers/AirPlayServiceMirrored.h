@@ -19,11 +19,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WebKit/WebKit.h>
+#import <UIKit/UIKit.h>
 #import <AVFoundation/AVPlayer.h>
 #import "MediaPlayer.h"
 #import "MediaControl.h"
 #import "WebAppLauncher.h"
+#import <WebKit/WebKit.h>
 
 @class AirPlayService;
 

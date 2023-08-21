@@ -20,6 +20,7 @@
 
 #import "AirPlayService_Private.h"
 #import "ConnectError.h"
+#import <WebKit/WebKit.h>
 
 #import "NSObject+FeatureNotSupported_Private.h"
 
